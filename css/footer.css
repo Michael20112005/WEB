@@ -1,0 +1,13 @@
+footer {
+    width: 1600px;
+    height: 165px;
+    position: absolute;
+    top: 3012px;
+    left: 0; 
+    background: linear-gradient(90deg, #67C3F3 100%, #5A98F2 100%); 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+    font-family: 'Mulish', sans-serif;
+  }
