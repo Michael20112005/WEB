@@ -1,0 +1,84 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0;
+  position: relative;
+}
+
+.illustration-2 {
+  position: absolute;
+  top: 985px;
+  left: 135px;
+  width: 650px;
+  height: 467px;
+  background-image: url('../img/png/illustration2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.leading-healthcare-text h2 {
+  position: absolute;
+  top: 1040.81px;
+  left: 927px;
+  width: 481px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  color: black;
+}
+
+.leading-healthcare-text p {
+  position: absolute;
+  top: 1208.22px;
+  left: 927px;
+  width: 450px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  color: #7D7987;
+}
+
+.rectangle {
+  position: absolute;
+  top: 1175.91px;
+  left: 927px;
+  width: 56px;
+  height: 1.96px;
+  border-radius: 10px;
+  background-color: #000000;
+}
+
+.learn-more-btn {
+  position: absolute;
+  top: 1361.93px;
+  left: 922px;
+  width: 200px;
+  height: 58.74px;
+  background-color: transparent;
+  border-radius: 55px;
+  border: 1.4px solid #458FF6;
+  cursor: pointer;
+  transition: opacity 0.4s ease, background-color 0.3s ease;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn-more-btn span {
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #458FF6;
+  line-height: 1.5;
+}
+
+.learn-more-btn:hover, .learn-more-btn:hover span {
+  background-color: #458FF6;
+  color: white;
+}
