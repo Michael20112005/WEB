@@ -1,0 +1,6 @@
+body {
+  background-image: url('../img/png/bg.png');
+  background-size: cover; /* Адаптація фону під екран */
+  background-position: center;
+  background-repeat: no-repeat;
+}
