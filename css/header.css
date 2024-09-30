@@ -1,0 +1,135 @@
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 56px;
+  left: 191px;
+  width: 160px;
+  height: 41px;
+  background-image: url('../img/svg/logo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.element {
+  position: absolute;
+  top: 160px;
+  left: -50px;
+  width: 131.58px;
+  height: 115px;
+  background-image: url('../img/svg/element.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.43;
+}
+
+.illustration {
+  position: absolute;
+  top: 177px;
+  left: 744px;
+  width: 693px;
+  height: 598px;
+  background-image: url('../img/png/illustration1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-nav {
+  position: absolute;
+  top: 70px;
+  left: 863px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  font-family: 'Mulish', sans-serif;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #1F1534;
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.nav-links li a.home-link {
+  font-weight: 700;
+  opacity: 1;
+}
+
+.header-text {
+  position: absolute;
+  top: 283px;
+  left: 190px;
+}
+
+.header-text h1 {
+  width: 427px;
+  height: 112px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: black;
+  text-align: left;
+}
+
+.header-text p {
+  width: 445px;
+  height: 96px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #7D7987;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.header-text {
+  width: 445px;
+  margin-top: 20px;
+}
+
+.header-text p {
+  margin-bottom: 20px; 
+  font-size: 21px;
+  font-weight: 300;
+  color: #7D7987;
+  font-family: 'Mulish', sans-serif;
+  line-height: 32px;
+}
+
+.consult-btn {
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  background-color: #458FF6; 
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 56px; 
+  text-align: center;
+  border: none;
+  border-radius: 55px; 
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  margin-top: 20px; 
+}
+
+.consult-btn:hover {
+  background-color: #0056b3;
+}
