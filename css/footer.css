@@ -11,3 +11,59 @@ footer {
     color: white;
     font-family: 'Mulish', sans-serif;
   }
+
+  .trafalgar {
+    position: absolute;
+    top: auto;
+    left: 227px;
+    width: 160px;
+    height: 41px;
+    background-image: url('../img/svg/trafalgar.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .element1 {
+    position: absolute;
+    top: auto;
+    left: -19px;
+    width: 131.58px;
+    height: 15px;
+    background-image: url('../img/svg/element.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.26;
+  }
+
+  .buttons {
+    position: absolute;
+    top: 70px;
+    left: 762px;
+    display: flex;
+    gap: 180px;
+  }
+  
+  button {
+    height: 60px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: white;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .company-btn {
+    width: 45px;
+  }
+  
+  .region-btn {
+    width: 67px;
+  }
+  
+  .help-btn {
+    width: 45px;
+  }
