@@ -2,4 +2,5 @@
 Виконав: Попик Михайло Ігорьович (ІР-23)
 
 Лабораторна робота №2 (Варіант 4)
+
 Посилання на шаблон у Figma: https://www.figma.com/file/pRfvOqsPgu7HrlMPgLKkto/LabWork1-V4
