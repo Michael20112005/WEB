@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Редагувати моба</title>
+    <link rel="stylesheet" href="../custom.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="header_container">
+        <div class="left-side">
+          <h1 class="title">Моби</h1>
+          <ul id="nav">
+            <li><a href="../index.html">Наявні Моби</a></li>
+            <li><a href="create.html">Створити моба</a></li>
+          </ul>
+        </div>
+        <div class="right-side">
+          <input type="search" id="find_input" placeholder="Пошук..." />
+          <button id="find_button" type="submit" class="btn">Пошук</button>
+          <button id="cancel_button" type="reset" class="btn">Стерти</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main_part">
+      <div class="container">
+        <div class="title">
+          <h1 class="title">Редагувати моба</h1>
+          <form class="sorting-container" id="editMobForm">
+            <label for="mname">Назва моба:</label><br />
+            <input
+              type="text"
+              id="mname"
+              name="m_name"
+              required
+              minlength="2"
+              maxlength="50"
+            /><br />
+
+            <label for="mlife">Життя моба:</label><br />
+            <input
+              type="number"
+              id="mlife"
+              name="m_life"
+              required
+              min="1"
+              max="1000"
+            /><br />
+
+            <label for="mstrength">Сила моба:</label><br />
+            <input
+              type="number"
+              id="mstrength"
+              name="m_strength"
+              required
+              min="1"
+              max="500"
+            /><br />
+
+            <button type="button" id="submitEdit" class="btn">
+              Зберегти зміни
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="../js/edit_mob.js"></script>
+  </body>
+</html>
